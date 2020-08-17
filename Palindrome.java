@@ -2,6 +2,7 @@ package be.vdab.FundamentalsTest;
 
 public class Palindrome {
 
+    // Please don't use abbreviations for variable names = readability
     static boolean isPalindrome(String str) {
         int iB = 0, iE = str.length() - 1;
         while (iB < iE) {
@@ -33,5 +34,6 @@ public class Palindrome {
             System.out.println(string3 +" is a palindrome");
         else
             System.out.println(string3 +" is not a palindrome");
+        // Always curly braces, even for one line of code = readability
     }
 }
