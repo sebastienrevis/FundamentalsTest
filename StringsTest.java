@@ -34,6 +34,8 @@ public class StringsTest {
             }
         }
 
+        // Code repetition as clear as this is perfect to put in a method. This should be in a 'countVowels' test method.
+        
         System.out.println("The number of vowels in the string: " + string1 + " is " + countStr1);
         System.out.println("The number of vowels in the string: " + string2 + " is " + countStr2);
         System.out.println("The number of vowels in the string: " + string3 + " is " + countStr3);
@@ -46,6 +48,9 @@ public class StringsTest {
         if (string3.startsWith("http://") == true)
             System.out.println(string3 + "This is a url");
         System.out.println();
+        
+        // No if statements without curly braces!!
+        // Same about code repetition
     }
 }
 
